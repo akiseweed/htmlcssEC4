@@ -35,8 +35,8 @@
 
 .btn-wsp {
   position: fixed;
-  width: 55px;
-  height: 55px;
+  width: 65px;
+  height: auto;
   line-height: 55px;
   bottom:30px;
   right: 30px;
@@ -200,7 +200,18 @@ nav {
   opacity: 0.05;
   z-index: -1;
 }
+.video{
+  display: flex;
+  justify-content:center ;
+  align-items: center ;
+  height: 100vh;
+}
+.video iframe {
+width: 80%;
+max-width: 800px;
+height: auto;
 
+}
 .header__blur {
   bottom: 5rem;
   right: 0;
