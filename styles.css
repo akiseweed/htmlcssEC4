@@ -16,6 +16,31 @@
   margin: 0;
   box-sizing: border-box;
 }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Columnas automáticas ajustadas al tamaño mínimo de 250px */
+  grid-gap: 10px; /* Espacio entre las imágenes */
+}
+
+.gallery-item {
+  overflow: hidden; /* Evitar que las imágenes se desborden del contenedor */
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom:30px;
+  right: 30px;
+  z-index: 500;
+}
+
 .slider{
   width: 100%;
   height: 600px;
