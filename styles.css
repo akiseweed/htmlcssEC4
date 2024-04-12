@@ -152,7 +152,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  position: sticky;
+  ;
+  
 }
 
 .nav__logo {
@@ -207,18 +208,27 @@ nav {
   opacity: 0.05;
   z-index: -1;
 }
-.video{
-  display: flex;
-  justify-content:center ;
-  align-items: center ;
-  height: 100vh;
+.video {
+  margin-top: 50px; /* Ajusta el margen superior según sea necesario */
+  text-align: center; /* Centra el contenido horizontalmente */
 }
-.video iframe {
+
+.video .class__content {
+  max-width: 200%; /* Ajusta el ancho máximo del contenedor de video */
+  overflow: hidden; /* Oculta cualquier contenido que se desborde del contenedor */
+  border-radius: 10px; /* Añade bordes redondeados al contenedor */
+}
+
+.video .class__content iframe {
+  width: 50%; /* Ajusta el ancho del video al 100% del contenedor */
+  height: 300px; /* Ajusta la altura del video según sea necesario */
+  border: none; /* Quita cualquier borde alrededor del video */
+}
+/* .video iframe {
 width: 80%;
 max-width: 800px;
 height: auto;
-
-}
+} */
 .header__blur {
   bottom: 5rem;
   right: 0;
