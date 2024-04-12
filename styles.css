@@ -108,7 +108,7 @@
 }
 
 .btn {
-  padding: 1rem 2rem;
+  padding: 1rem 4rem;
   outline: none;
   border: none;
   font-size: 1rem;
@@ -116,7 +116,8 @@
   background-color: var(--secondary-color);
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.3s; 
+  margin-left: 2cm;
 }
 
 .btn:hover {
@@ -394,11 +395,13 @@ height: auto;
 .class__content .section__header {
   text-align: left;
   max-width: 400px;
+  margin-left: 85px;
 }
 
 .class__content p {
   margin-bottom: 4rem;
   color: var(--text-light);
+  margin-left:  6rem;
 }
 
 .join__image {
